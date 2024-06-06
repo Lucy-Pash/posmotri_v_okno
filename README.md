@@ -1,1 +1,1 @@
-git@github.com:Lucy-Pash/posmotri_v_okno.git
+https://github.com/Lucy-Pash/posmotri_v_okno.git
