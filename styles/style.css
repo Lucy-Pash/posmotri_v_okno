@@ -60,6 +60,7 @@ ol {
   align-self: flex-end;
   gap: 16px;
   padding-top: 78px;
+  padding-bottom: 70px;
 }
 
 .result__video-container {
@@ -210,7 +211,6 @@ ol {
 
 .button:focus {
   outline: none;
-  background-color:#545050;
 }
 
 .button:focus-visible {
@@ -246,14 +246,13 @@ ol {
 
 .content__list {
   position: relative;
-  height: 298px;
-  width: 399px;
+  height: 301px;
   overflow-y:scroll;
-  overflow-x:hidden;
+  overflow-x:auto;
 }
 
 .content__list-item:not(:last-of-type){
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 
 .content__card-link {
@@ -265,6 +264,7 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
+  background-color: #545050;
 }
 
 .content__card-link:focus {
@@ -274,6 +274,7 @@ ol {
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
+  background-color: #545050;
 }
 
 .content_card-link_current {
@@ -284,7 +285,6 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  background-color: #545050;
   width: 399px;
 }
 
@@ -313,23 +313,24 @@ ol {
   font-weight: 400;
   line-height: 16.2px;
   text-align: left;
-  width: 200px;
+  width: 199px;
   padding-top: 2px;
   padding-bottom: 2px; 
+  
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
-  height: 103px;
+  width: 200px;
+  height: 107px;
   object-fit: cover;
   object-position: center;
 }
 
 .more-button {
   width: 399px;
-  margin: 34px;
   border: 1px solid #FFFFFF;
-  margin-bottom: 0px;
+  /*margin-top: 34px;*/
+  margin-left: 0px;
 }
 
 
