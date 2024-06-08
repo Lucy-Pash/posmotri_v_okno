@@ -1,3 +1,5 @@
+/* Серый фон при модификаторе .content__card-link_current почему-то не работал,хотя был у меня указан,заскринила, что теперь работает, но не знаю,куда скрин приложить:(*/
+
 *,
 *::before,
 *::after {
@@ -247,6 +249,7 @@ ol {
 .content__list {
   position: relative;
   height: 301px;
+  width: 401px;
   overflow-y:scroll;
   overflow-x:auto;
 }
@@ -277,9 +280,8 @@ ol {
   background-color: #545050;
 }
 
-.content_card-link_current {
+.content__card-link_current {
   background-color: #545050;
-
 }
 
 .content__video-card {
