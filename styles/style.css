@@ -287,11 +287,11 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  width: 399px;
+  width: 100%;
 }
 
 .content__video-card-description-container {
-  width: 200px;
+  width: 190px;
   padding-top: 4px;
   padding-left: 2px;
 }
@@ -315,7 +315,6 @@ ol {
   font-weight: 400;
   line-height: 16.2px;
   text-align: left;
-  width: 199px;
   padding-top: 2px;
   padding-bottom: 2px; 
   
@@ -329,7 +328,7 @@ ol {
 }
 
 .more-button {
-  width: 399px;
+  width: 100%;
   border: 1px solid #FFFFFF;
   /*margin-top: 34px;*/
   margin-left: 0px;
